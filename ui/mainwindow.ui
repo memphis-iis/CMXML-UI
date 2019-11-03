@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTextBrowser" name="textBrowser">
+   <widget class="QTextBrowser" name="txtStdOut">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -24,7 +24,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnAnalyze">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -37,7 +37,7 @@
      <string>Analyze</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="cbLanguage">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -77,7 +77,7 @@
      </property>
     </item>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="lblLanguage">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -90,7 +90,7 @@
      <string>Language:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="lblInputFile">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -103,7 +103,7 @@
      <string>Input File:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="lblOutputFile">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -116,7 +116,7 @@
      <string>Output File:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="lneInputFile">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -126,7 +126,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="lneOutputFile">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -136,7 +136,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btnInputBrowse">
     <property name="geometry">
      <rect>
       <x>480</x>
@@ -149,7 +149,7 @@
      <string>Browse</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btnOutputBrowse">
     <property name="geometry">
      <rect>
       <x>480</x>
@@ -162,7 +162,7 @@
      <string>Browse</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="lblTitle">
     <property name="geometry">
      <rect>
       <x>280</x>
